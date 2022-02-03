@@ -23,7 +23,7 @@
         <p>Discover your perfect match using our relationship algorithm and users preferences; Professional network and get matched with job seekers, recruiters </p>
         <div id="form-container" class="form1_M">
           <h2>Join our waiting list</h2>
-        <form class="form">
+        <form class="form" onsubmit="return submitMail(event)">
           <input type="email" name="email" id="email" placeholder="Your Email" required>
           <button id="submitBTN" type="submit">Join</button>
         </form>
@@ -38,7 +38,7 @@
       <h2>Join our waiting list</h2>
       <form class="form">
         <input type="email" name="email" id="email" placeholder="Your Email" required>
-        <button id="submitBTN" type="submit">Join</button>
+        <button id="submitBTN" type="submit" onclick="return submitMail(event)">Join</button>
       </form>
     </div>
    </div>
@@ -65,5 +65,7 @@
       </div>
     </div>
   </footer>
+  <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+  <script src="./wiping.js"></script>
 </body>
 </html>

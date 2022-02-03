@@ -26,13 +26,13 @@ header {
 position: absolute;
 width: 843px;
 height: 843px;
-left: 58%;
-top: -38%;
+left: 55.5%;
+top: -43%;
 background: rgba(33, 230, 213, 0.08);
 border-radius: 50%;
 }
 .lead {
-  color: rgba(33, 230, 213, 0.4);
+  color: #21E6D5;
 }
 #header-content {
   height: 60vh;
@@ -46,13 +46,15 @@ border-radius: 50%;
 }
 #header-content-A h1{
 font-style: normal;
-font-weight: 600;
+font-weight: 800;
 font-size: 50.52px;
 line-height: 54px;
-color: #033B6C;
+color: #03315a;
 }
 #header-content-A p {
 font-style: normal;
+width: 440px;
+margin-top: 23px;
 font-weight: 500;
 font-size: 17px;
 line-height: 22px;
@@ -121,17 +123,26 @@ border: 1px solid #333;
 }
 #sub-main-A h2 {
   padding-bottom: 25px;
-  font-size: 34.9px;
+  font-size: 37.9px;
+  font-weight: bold;
   width: 733px;
+}
+#sub-main-A p {
+  font-size: 22px;
+  font-weight: bold;
 }
 #sub-main-B img {
   transform: scale(0.85);
 }
 /* Footer */
+#Footer {
+  display: none;
+}
 #footer-container {
-  width: 80%;
+  /* width: 80%; */
   margin: auto;
-  padding: 55px;
+  margin-bottom: 0%;
+  padding-top: 55px;
   color: #393939;
   line-height: 20px;
   display: flex;
@@ -140,7 +151,7 @@ border: 1px solid #333;
   align-items: center;
 }
 #footer-sec1 h3 {
-  color: #033B6C;
+  color: #022f57;
   font-size: 30px;
   margin-bottom: 20px;
 }
@@ -148,6 +159,9 @@ border: 1px solid #333;
 @media screen and (max-width: 1400px) {
 body {
   overflow-x: hidden;
+}
+.eclipse {
+  top: -48%;
 }
 #phone1 {
   position: absolute;
@@ -180,17 +194,19 @@ body {
   }
   #header-content-A p {
     font-size: 16px;
+    width: 85%;
+    line-height: 30px;
   }
   .eclipse {
     top: -83%;
   }
   #phone1 {
     left: -155px;
-    top: 80px;
+    top: 60px;
     }
   #phone2 {
     left: -40px;
-    top: 120px;
+    top: 100px;
     }
   .form1_M {
     display: block;
@@ -199,12 +215,19 @@ body {
     display: none;
   }
   #sub-main {
-    margin-top: 50%;
+    margin-top: 60%;
+    padding: 10px;
   }
   #sub-main-A h2 {
-    font-size: 23.9px;
-    width: 80%;
+    font-size: 21.9px;
+    padding: 5px;
+    width: 100%;
+    font-weight: bold;
     margin: auto;
+  }
+  #sub-main-A p {
+    margin-top: 10%;
+    font-size: 16px;
   }
   #form-container {
     width: 85vw;
@@ -216,10 +239,21 @@ body {
   #submitBTN {
     width: 98px;
   }
+  #Footer {
+    display: block;
+    width: 100vw;
+  }
   #footer-container {
+    width: 85vw;
     flex-direction: column;
     text-align: center;
     line-height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  #footer-sec1 h3 {
+    font-size: 35px;
+    font-weight: 800;
   }
 }
 
