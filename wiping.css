@@ -3,7 +3,7 @@
   margin: 0%;
   box-sizing: border-box;
 }
-body {
+html, body {
   overflow-x: hidden;
   font-family: 'Inter', sans-serif;
 }
@@ -158,9 +158,10 @@ box-shadow: 0.2px 0px 2px #033B6C;
 }
 
 @media screen and (max-width: 1400px) {
-body {
+/* html, body {
   overflow-x: hidden;
-}
+  width: 100vw;
+} */
 .eclipse {
   top: -48%;
 }
@@ -182,11 +183,9 @@ body {
 
 /* Mobile Screens */
 @media screen and (max-width:550px) {
-  body {
-    overflow-x: hidden;
-  }
-  #main {
-    overflow-x: hidden;
+  html, body {
+    overflow-x: hidden !important;
+    width: 100vw;
   }
   #header-content {
     flex-direction: column;
@@ -247,7 +246,7 @@ body {
     width: 100vw;
   }
   #footer-container {
-    width: 85vw;
+    width: 95vw;
     flex-direction: column;
     text-align: center;
     line-height: 30px;
