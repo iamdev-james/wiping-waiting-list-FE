@@ -5,11 +5,11 @@
 }
 body {
   overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
 }
 #main {
   max-width: 100vw;
   max-height: 100vh;
-  font-family: 'Inter', sans-serif;
 }
 #main-container {
   max-width: 80%;
@@ -92,12 +92,16 @@ top: -194.43px;
   justify-content: center;
   align-items: center;
 }
-#email {
+.email {
 width: 324px;
 height: 44px;
-padding-left: 30px;
+font-size: 18px;
+padding-left: 25px;
+outline-color: #033B6C;
 border-radius: 7px 0px 0px 7px;
 border: 1px solid #333;
+border-right: none;
+box-shadow: 0.2px 0px 2px #033B6C;
 }
 #submitBTN {
   width: 124px;
@@ -135,13 +139,10 @@ border: 1px solid #333;
   transform: scale(0.85);
 }
 /* Footer */
-#Footer {
-  display: none;
-}
 #footer-container {
-  /* width: 80%; */
+  width: 80%;
   margin: auto;
-  margin-bottom: 0%;
+  margin-bottom: 5%;
   padding-top: 55px;
   color: #393939;
   line-height: 20px;
@@ -182,6 +183,9 @@ body {
 /* Mobile Screens */
 @media screen and (max-width:550px) {
   body {
+    overflow-x: hidden;
+  }
+  #main {
     overflow-x: hidden;
   }
   #header-content {
@@ -240,7 +244,6 @@ body {
     width: 98px;
   }
   #Footer {
-    display: block;
     width: 100vw;
   }
   #footer-container {

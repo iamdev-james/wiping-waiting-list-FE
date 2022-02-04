@@ -25,7 +25,7 @@
         <div id="form-container" class="form1_M">
           <h2>Join our waiting list</h2>
         <form class="form" onsubmit="return submitMail(event)">
-          <input type="email" name="email" id="email" placeholder="Your Email" required>
+          <input type="email" class="email" name="email" id="email_M" placeholder="Your Email" required>
           <button id="submitBTN" type="submit">Join</button>
         </form>
       </div>
@@ -37,9 +37,9 @@
     </section>
     <div id="form-container"  class="form2">
       <h2>Join our waiting list</h2>
-      <form class="form">
-        <input type="email" name="email" id="email" placeholder="Your Email" value="hello" required>
-        <button id="submitBTN" type="submit" onclick="return submitMail(event)">Join</button>
+      <form class="form" onsubmit="return submitMail(event)">
+        <input type="email" class="email" name="email" id="email_D" placeholder="Your Email" required>
+        <button id="submitBTN" type="submit">Join</button>
       </form>
     </div>
    </div>
@@ -66,7 +66,7 @@
       </div>
     </div>
   </footer>
-  <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="./wiping.js"></script>
 </body>
 </html>
