@@ -183,9 +183,12 @@ box-shadow: 0.2px 0px 2px #033B6C;
 
 /* Mobile Screens */
 @media screen and (max-width:550px) {
-  html, body {
+  /* html, body {
     overflow-x: hidden !important;
     width: 100vw;
+  } */
+  .eclipse {
+    display: none;
   }
   #header-content {
     flex-direction: column;
