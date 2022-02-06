@@ -1,4 +1,3 @@
-window.scrollX = 0;
 let email;
 
 // CHECKING FOR THE VALID EMAIL
