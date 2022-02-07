@@ -185,10 +185,10 @@ box-shadow: 0.2px 0px 2px #033B6C;
 /* Mobile Screens */
 @media screen and (max-width:550px) {
   .eclipse {
-    width: 243px;
-    height: 243px;
-    left: 65.5%;
-    top: -17%;
+    width: 200px;
+    height: 200px;
+    left: 64.5%;
+    top: -9%;
   }
   #header-content {
     flex-direction: column;
@@ -205,11 +205,11 @@ box-shadow: 0.2px 0px 2px #033B6C;
   }
   #phone1 {
     left: -155px;
-    top: 60px;
+    top: 80px;
     }
   #phone2 {
     left: -40px;
-    top: 100px;
+    top: 120px;
     }
   .form1_M {
     display: block;
@@ -218,7 +218,7 @@ box-shadow: 0.2px 0px 2px #033B6C;
     display: none;
   }
   #sub-main {
-    margin-top: 60%;
+    margin-top: 90%;
     padding: 10px;
   }
   #sub-main-A h2 {
@@ -244,6 +244,7 @@ box-shadow: 0.2px 0px 2px #033B6C;
   }
   #Footer {
     width: 100vw;
+    margin-bottom: 30%;
   }
   #footer-container {
     width: 95vw;
@@ -260,10 +261,10 @@ box-shadow: 0.2px 0px 2px #033B6C;
 }
 
 /* Smaller screens */
-@media screen and (max-width:380px) {
+@media screen and (max-width:389px) {
   #sub-main {
     width: 100vw;
-    margin-top: 120%;
+    margin-top: 130%;
   }
   #sub-main-A h2 {
     font-size: 20px;
