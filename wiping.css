@@ -270,7 +270,7 @@ box-shadow: 0.2px 0px 2px #033B6C;
 }
 @media screen and (max-width: 400px) {
   #sub-main {
-    margin-top: 75%;
+    margin-top: 100%;
   }
 }
 
