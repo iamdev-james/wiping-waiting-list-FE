@@ -221,7 +221,7 @@ box-shadow: 0.2px 0px 2px #033B6C;
     display: none;
   }
   #sub-main {
-    margin-top: 90%;
+    margin-top: 80%;
     padding: 10px;
   }
   #sub-main-A h2 {
@@ -260,6 +260,17 @@ box-shadow: 0.2px 0px 2px #033B6C;
   #footer-sec1 h3 {
     font-size: 35px;
     font-weight: 800;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #sub-main {
+    margin-top: 55%;
+  }
+}
+@media screen and (max-width: 400px) {
+  #sub-main {
+    margin-top: 75%;
   }
 }
 
