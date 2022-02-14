@@ -254,6 +254,7 @@ box-shadow: 0.2px 0px 2px #033B6C;
     flex-direction: column;
     text-align: center;
     line-height: 30px;
+    color: #333;
     font-size: 20px;
     font-weight: 500;
   }
